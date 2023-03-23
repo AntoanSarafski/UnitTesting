@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Cars\Cars.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\..\..\..\Program Files\NUnit\nunit.framework.dll</HintPath>
     </Reference>
