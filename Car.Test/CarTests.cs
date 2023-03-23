@@ -17,7 +17,7 @@ namespace Cars.Test
             Assert.True(100 == car.Mileage);
             Assert.False(100 != car.Mileage);
             Assert.That(car.Mileage, Is.EqualTo(100));
-            Assert.That(101 == car.Mileage, "Don't lie! ;d");
+            Assert.AreEqual(101 == car.Mileage, "Don't lie! ;d");
             
         }
 
