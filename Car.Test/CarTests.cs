@@ -14,6 +14,9 @@ namespace Cars.Test
             car.Drive(100);
 
             Assert.AreEqual(100, car.Mileage); // First expected value - 100, then checked value.
+            Assert.True(100 == car.Mileage);
+            Assert.False(100 != car.Mileage);
+            
         }
 
         [Test]
