@@ -17,6 +17,12 @@ namespace Cars.Test
             }
         }
 
+        [TearDown]
+        public void CleanUp()
+        {
+            car.Mileage = 0;
+        }
+
         [Test]
         public void When_Car_Is_Drive_Mileage_Should_Increase() // or Test_Drive_Car_Should_Increase_Mileage()
         {
