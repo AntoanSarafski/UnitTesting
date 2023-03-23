@@ -13,11 +13,11 @@ namespace Cars.Test
 
             car.Drive(100);
 
-            Assert.AreEqual(100, car.Mileage); // First expected value - 100, then checked value.
-            Assert.True(100 == car.Mileage);
-            Assert.False(100 != car.Mileage);
-            Assert.That(car.Mileage, Is.EqualTo(100));
-            Assert.AreEqual(101 == car.Mileage, "Don't lie! ;d");
+            //Assert.AreEqual(100, car.Mileage); 
+            //Assert.True(100 == car.Mileage);
+            //Assert.False(100 != car.Mileage);
+            //Assert.That(car.Mileage, Is.EqualTo(100));
+            Assert.AreEqual(101, car.Mileage, "Don't lie! ;d");
             
         }
 
